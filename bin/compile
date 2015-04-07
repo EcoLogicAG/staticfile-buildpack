@@ -6,7 +6,8 @@ set -o pipefail   # don't ignore exit codes when piping output
 # set -x          # enable debugging
 
 # Ubuntu version
-release=`lsb_release -cs`
+#release=`lsb_release -cs`
+release=trusty #do not use ubuntu release name from host
 
 # Configure directories
 build_dir=$1
